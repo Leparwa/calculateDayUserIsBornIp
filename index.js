@@ -15,6 +15,8 @@ form.addEventListener('submit', function calculate(event){
   let mm = document.getElementById('month').value
   let dd = document.getElementById('dateOfTheMonth').value
   let cc = document.getElementById('century').value
+  let gender = document.getElementById('gender').value
+
   console.log("we are calculating" + dd)
  
   if(cc  >=  19 && cc <= 20)
@@ -28,7 +30,6 @@ form.addEventListener('submit', function calculate(event){
   // return Math.round(yourDayOfWeek)
   if(yourDayOfWeek === 1){
     console.log("value is 1")
-    let gender = prompt("enter the gender");
     if (gender === 'male'){
           console.log("your akana name is" +maleAkanaNames[0])
     }
@@ -40,7 +41,6 @@ form.addEventListener('submit', function calculate(event){
     }
   }
   else if(yourDayOfWeek === 2){
-    let gender = prompt("enter the gender")
     if( gender ==="male"){
    console.log("your akana name is" +maleAkanaNames[1])
     }
@@ -54,7 +54,6 @@ form.addEventListener('submit', function calculate(event){
   }
  else if(yourDayOfWeek === 3){
     console.log("value is 3")
-    let gender = prompt("enter the gender")
     if(gender =="male"){
           console.log("your akana name is" +maleAkanaNames[2])
     }
@@ -67,7 +66,6 @@ form.addEventListener('submit', function calculate(event){
   }
   else if(yourDayOfWeek === 4){
      console.log("value is 4")
-    let gender = prompt("enter the gender")
     if(gender =="male"){
           console.log("your akana name is" +maleAkanaNames[3])
     }
@@ -80,7 +78,6 @@ form.addEventListener('submit', function calculate(event){
   }
   else if(yourDayOfWeek === 5){
      console.log("value is 5")
-    let gender = prompt("enter the gender")
     if(gender == "male"){
           console.log("your akana name is" +maleAkanaNames[4])
     }
@@ -93,7 +90,6 @@ form.addEventListener('submit', function calculate(event){
   }
   else if(yourDayOfWeek === 6){
      console.log("value is 6")
-    let gender = prompt("enter the gender")
     if(gender == "male"){
           console.log("your akana name is" +maleAkanaNames[5])
     }
@@ -106,7 +102,6 @@ form.addEventListener('submit', function calculate(event){
   }
  else if(yourDayOfWeek === 7){
     console.log("value is 7")
-    let gender = prompt("enter the gender")
     if(gender == "male"){
           console.log("your akana name is" +maleAkanaNames[6])
     }
