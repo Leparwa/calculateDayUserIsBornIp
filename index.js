@@ -55,10 +55,10 @@ form.addEventListener('submit', function calculate(event){
  else if(yourDayOfWeek === 3){
     console.log("value is 3")
     if(gender =="male"){
-      alert("your akana name is" + " "+maleAkanaNames[2])
+      alert("your akana name is" + " " +maleAkanaNames[2])
     }
     else if( gender == "female"){
-    console.log("your akana name is " + " "+femaleAkanaNames[2])
+    console.log("your akana name is " + " " +femaleAkanaNames[2])
     }
     else{
       alert("No Kwasi Name for you")
@@ -67,10 +67,10 @@ form.addEventListener('submit', function calculate(event){
   else if(yourDayOfWeek === 4){
      console.log("value is 4")
     if(gender =="male"){
-      alert("your akana name is" + " "+maleAkanaNames[3])
+      alert("your akana name is" + " " +maleAkanaNames[3])
     }
     else if( gender == "female"){
-      alert("your akana name is " + " "+femaleAkanaNames[3])
+      alert("your akana name is " + " " +femaleAkanaNames[3])
     }
     else{
       alert("No Kwasi Name for you")
@@ -79,7 +79,7 @@ form.addEventListener('submit', function calculate(event){
   else if(yourDayOfWeek === 5){
      console.log("value is 5")
     if(gender == "male"){
-      alert("your akana name is" + " "+maleAkanaNames[4])
+      alert("your akana name is" + " " +maleAkanaNames[4])
     }
     else if( gender == "female"){
       alert("your akana name is" + " "+ femaleAkanaNames[4])
@@ -93,7 +93,7 @@ form.addEventListener('submit', function calculate(event){
       alert("your akana name is" + " "+ maleAkanaNames[5])
     }
    else if( gender == "female"){
-    alert("your akana name is" + " "+femaleAkanaNames[5])
+    alert("your akana name is" + " " +femaleAkanaNames[5])
     }
     else{
       alert("No Kwasi Name for you")
