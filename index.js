@@ -31,95 +31,95 @@ form.addEventListener('submit', function calculate(event){
   if(yourDayOfWeek === 1){
     console.log("value is 1")
     if (gender === 'male'){
-          console.log("your akana name is" +maleAkanaNames[0])
+      alert("your akana name is" + " " +maleAkanaNames[0])
     }
     else if(gender === "female"){
-    console.log("your akana name is" +femaleAkanaNames[1])
+      prompt("your akana name is" + " "+ femaleAkanaNames[1])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
   else if(yourDayOfWeek === 2){
     if( gender ==="male"){
-   console.log("your akana name is" +maleAkanaNames[1])
+      alert("your akana name is" + " " +maleAkanaNames[1])
     }
      else if( gender == "female"){
-    console.log("your akana name is" +femaleAkanaNames[1])
+    cprompt("your akana name is" + " " +femaleAkanaNames[1])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
    
   }
  else if(yourDayOfWeek === 3){
     console.log("value is 3")
     if(gender =="male"){
-          console.log("your akana name is" +maleAkanaNames[2])
+      alert("your akana name is" + " "+maleAkanaNames[2])
     }
     else if( gender == "female"){
-    console.log("your akana name is " +femaleAkanaNames[2])
+    console.log("your akana name is " + " "+femaleAkanaNames[2])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
   else if(yourDayOfWeek === 4){
      console.log("value is 4")
     if(gender =="male"){
-          console.log("your akana name is" +maleAkanaNames[3])
+      alert("your akana name is" + " "+maleAkanaNames[3])
     }
     else if( gender == "female"){
-    console.log("your akana name is " +femaleAkanaNames[3])
+      alert("your akana name is " + " "+femaleAkanaNames[3])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
   else if(yourDayOfWeek === 5){
      console.log("value is 5")
     if(gender == "male"){
-          console.log("your akana name is" +maleAkanaNames[4])
+      alert("your akana name is" + " "+maleAkanaNames[4])
     }
     else if( gender == "female"){
-    console.log("your akana name is" +femaleAkanaNames[4])
+      alert("your akana name is" + " "+ femaleAkanaNames[4])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
   else if(yourDayOfWeek === 6){
-     console.log("value is 6")
     if(gender == "male"){
-          console.log("your akana name is" +maleAkanaNames[5])
+      alert("your akana name is" + " "+ maleAkanaNames[5])
     }
    else if( gender == "female"){
-    console.log("your akana name is" +femaleAkanaNames[5])
+    alert("your akana name is" + " "+femaleAkanaNames[5])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
  else if(yourDayOfWeek === 7){
     console.log("value is 7")
     if(gender == "male"){
-          console.log("your akana name is" +maleAkanaNames[6])
+      alert("your akana name is"  + ""+ maleAkanaNames[6])
     }
     else if( gender == "female"){
-    console.log("your akana name is " +femaleAkanaNames[6])
+     
+      alert("your akana name is " + ""+ femaleAkanaNames[6])
     }
     else{
-      console.log("No Kwasi Name for you")
+      alert("No Kwasi Name for you")
     }
   }
 else{
-  console.log("wrong calculation")
+  alert("wrong calculation")
 }
     // console.log("you proceed")
   }
  
   else{
-    console.log("input a valid century")
+    alert("input a valid century")
   }
 
 

@@ -10,40 +10,76 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container m-4 p-4">
-        <form id="myForm">
-            <div class="mb-3">
-              <label for="century" class="form-label">Enter your century</label>
-              <input type="number" class="form-control" id="century" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3">
-                <label for="year" class="form-label">Enter the year</label>
-                <input type="number" class="form-control" id="year" aria-describedby="emailHelp">
+   <div class="container m-4">
+     <div class="row">
+       <div class="col-md-6">
+   
+        <h3>Brief Description of this programm</h3>
+        <p>
+          Well, most people do know when their birthdays are, 
+          but some might not know what day of the week 
+          they were born. Luckily for us, we have found ways
+           to determine the day of the week your were born.
+          This web application  takes your
+          birthday and calculates the day of the week 
+          you were born and then depending on your 
+          gender i will tell you youe Akan Name. 
+        </p>
+        <h6>
+          <i>
+            what is an <strong>Akan Name</strong>
+          </i>
+        </h6>
+        <p>
+          Akan names are derived from Ghanian culture. Frequently in Ghana, 
+          children are given their first name as a 'day name' which corresponds 
+          to the day in the week they were born. Here are Ghanian day names.
+        </p>
+       </div>
+       <div class="col-md-6 ml-2">
+         <h3>Are you ready to discover your Akan name</h3>
+         <p>
+           <small><strong>
+             fill in the form below
+           </strong></small>
+         </p>
+        <div class="container m-4 p-4">
+          <form id="myForm">
+              <div class="mb-3">
+                <label for="century" class="form-label">Enter your century</label>
+                <input type="number" class="form-control" id="century" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <label for="month" class="form-label">Enter the month</label>
-                <input type="number" class="form-control" id="month" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="dateOfTheMonth" class="form-label">Date of the month</label>
-                <input type="number" class="form-control" id="dateOfTheMonth" aria-describedby="emailHelp">
-              </div> 
-              <div class="mb-3">
-                <label for="gender" class="form-label">select gender</label>
-                <select class="form-control" id="gender">
-                  <option></option>
-                  <option>female</option>
-                  <option>male</option>
-                </select>
-              </div> 
-            
-            <!-- <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div> -->
-            <button  class="btn btn-primary " type="submit">Submit</button>
-          </form>
-    </div>
+                  <label for="year" class="form-label">Enter the year</label>
+                  <input type="number" class="form-control" id="year" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="month" class="form-label">Enter the month</label>
+                  <input type="number" class="form-control" id="month" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="dateOfTheMonth" class="form-label">Date of the month</label>
+                  <input type="number" class="form-control" id="dateOfTheMonth" aria-describedby="emailHelp">
+                </div> 
+                <div class="mb-3">
+                  <label for="gender" class="form-label">select gender</label>
+                  <select class="form-control" id="gender">
+                    <option></option>
+                    <option>female</option>
+                    <option>male</option>
+                  </select>
+                </div> 
+              
+              <!-- <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div> -->
+              <button  class="btn btn-primary " type="submit">Submit</button>
+            </form>
+      </div>
+       </div>
+     </div>
+   </div>
 </body>
 <script src="index.js"></script>
 </html>
