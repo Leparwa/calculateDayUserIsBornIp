@@ -1,10 +1,21 @@
-var cc= parseInt(prompt("enter the century") )
-var yy = parseInt(prompt("enter the year"))
-var mm = parseInt(prompt("enter the month"))
-var dd = parseInt(prompt("enter the day"))
+// var cc= parseInt(prompt("enter the century") )
+// var yy = parseInt(prompt("enter the year"))
+// var mm = parseInt(prompt("enter the month"))
+// var dd = parseInt(prompt("enter the day"))
+// var cc = document.getElementById('century')
+
 var maleAkanaNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", " Yaw", "kofi", "Kwame"]
 var femaleAkanaNames=["akosua", "Adwoa", "Abenaa", "akua", "yaa", "afua", "ama"]
-function calculate(){
+
+var form = document.getElementById('myForm')
+
+form.addEventListener('submit', function calculate(event){
+  event.preventDefault()
+  let yy = document.getElementById('year').value
+  let mm = document.getElementById('month').value
+  let dd = document.getElementById('dateOfTheMonth').value
+  let cc = document.getElementById('century').value
+  console.log("we are calculating" + dd)
  
   if(cc  >=  19 && cc <= 20)
   {
@@ -13,6 +24,7 @@ function calculate(){
   )
   console.log(typeof(yourDayOfWeek))
   console.log(yourDayOfWeek)
+  form.reset()
   // return Math.round(yourDayOfWeek)
   if(yourDayOfWeek === 1){
     console.log("value is 1")
@@ -117,4 +129,4 @@ else{
 
 
 }
-calculate()
+)
