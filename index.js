@@ -1,8 +1,4 @@
-// var cc= parseInt(prompt("enter the century") )
-// var yy = parseInt(prompt("enter the year"))
-// var mm = parseInt(prompt("enter the month"))
-// var dd = parseInt(prompt("enter the day"))
-// var cc = document.getElementById('century')
+
 
 var maleAkanaNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", " Yaw", "kofi", "Kwame"]
 var femaleAkanaNames=["akosua", "Adwoa", "Abenaa", "akua", "yaa", "afua", "ama"]
@@ -17,7 +13,6 @@ form.addEventListener('submit', function calculate(event){
   let cc = document.getElementById('century').value
   let gender = document.getElementById('gender').value
 
-  console.log("we are calculating" + dd)
  
   if(cc  >=  19 && cc <= 20)
   {
@@ -114,14 +109,11 @@ form.addEventListener('submit', function calculate(event){
   }
 else{
   alert("wrong calculation")
+}  
 }
-    // console.log("you proceed")
-  }
  
   else{
     alert("input a valid century")
   }
-
-
 }
 )
