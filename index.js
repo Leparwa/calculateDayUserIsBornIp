@@ -23,7 +23,7 @@ form.addEventListener('submit', function calculate(event){
   console.log(yourDayOfWeek)
   form.reset()
   // return Math.round(yourDayOfWeek)
-  if(yourDayOfWeek === 1){
+  if(yourDayOfWeek === 0){
     console.log("value is 1")
     if (gender === 'male'){
       alert("your akana name is" + " " +maleAkanaNames[0])
@@ -35,7 +35,7 @@ form.addEventListener('submit', function calculate(event){
       alert("No Kwasi Name for you")
     }
   }
-  else if(yourDayOfWeek === 2){
+  else if(yourDayOfWeek === 1){
     if( gender ==="male"){
       alert("your akana name is" + " " +maleAkanaNames[1])
     }
@@ -47,7 +47,7 @@ form.addEventListener('submit', function calculate(event){
     }
    
   }
- else if(yourDayOfWeek === 3){
+ else if(yourDayOfWeek === 2){
     console.log("value is 3")
     if(gender =="male"){
       alert("your akana name is" + " " +maleAkanaNames[2])
@@ -59,7 +59,7 @@ form.addEventListener('submit', function calculate(event){
       alert("No Kwasi Name for you")
     }
   }
-  else if(yourDayOfWeek === 4){
+  else if(yourDayOfWeek === 3){
      console.log("value is 4")
     if(gender =="male"){
       alert("your akana name is" + " " +maleAkanaNames[3])
@@ -71,7 +71,7 @@ form.addEventListener('submit', function calculate(event){
       alert("No Kwasi Name for you")
     }
   }
-  else if(yourDayOfWeek === 5){
+  else if(yourDayOfWeek === 4){
      console.log("value is 5")
     if(gender == "male"){
       alert("your akana name is" + " " +maleAkanaNames[4])
@@ -83,7 +83,7 @@ form.addEventListener('submit', function calculate(event){
       alert("No Kwasi Name for you")
     }
   }
-  else if(yourDayOfWeek === 6){
+  else if(yourDayOfWeek === 5){
     if(gender == "male"){
       alert("your akana name is" + " "+ maleAkanaNames[5])
     }
@@ -94,7 +94,7 @@ form.addEventListener('submit', function calculate(event){
       alert("No Kwasi Name for you")
     }
   }
- else if(yourDayOfWeek === 7){
+ else if(yourDayOfWeek === 6){
     console.log("value is 7")
     if(gender == "male"){
       alert("your akana name is"  + ""+ maleAkanaNames[6])
