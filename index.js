@@ -29,7 +29,7 @@ form.addEventListener('submit', function calculate(event){
       alert("your akana name is" + " " +maleAkanaNames[0])
     }
     else if(gender === "female"){
-      prompt("your akana name is" + " "+ femaleAkanaNames[1])
+      prompt("your akana name is" + " "+ femaleAkanaNames[0])
     }
     else{
       alert("No Kwasi Name for you")
